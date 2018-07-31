@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BlackJack</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  </head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+<body>
+<div class="everything">
+    <div id="table">
+        <!-- <div id="messages"></div> -->
+
+        <div style="margin-top: 4vh; margin-bottom: 8vh;" class="row">
+            <div class="col-3 offset-1">Dealer: </div>
+            
+            <div id="dealer-hand" class="hand col-4"></div>
+            <div id="dealer-points" class="points col-4"></div>
+            
+        </div>
+        <div class="row">
+        <div class="col-6 offset-4" id="messages"></div>
+        </div>
+        <div style="margin-top: 15vh" class="row">
+            <div class="col-3 offset-1">Player: </div>
+            <div id="player-hand" class="hand col-4"></div>
+            <div id="player-points" class="points col-4"></div>
+            
+                <!-- <img src="images/cards/2C.jpg">
+                <img src="images/cards/Red_back.jpg">  -->
+            </div>
+        </div>
+
+        <div class="row mt-5">
+                <div class="buttons col-12">
+                    <button id="deal-button" type="button" class="btn btn-primary btn-md"><b>Deal</b></button>
+                    <button id="hit-button" type="button" class="btn btn-primary btn-md"><b>Hit</b></button>
+                    <button id="stand-button" type="button" class="btn btn-primary btn-md"><b>Stand</b></button>
+                    <button id="play-again" type="button" class="btn btn-primary btn-md"><b>Play Again?</b></button>
+                </div>  
+            </div>
+        
+        </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="blackjack.js"></script>
+  </body>
+</html>
