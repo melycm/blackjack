@@ -20,7 +20,7 @@ To see the full code, please visit <a href="https://github.com/melycm/blackjack"
 
 
 <h2>Video</h2>
-<a href="https://www.youtube.com/watch?v=mhv6lPAcnUA"></a>
+<a href="https://www.youtube.com/watch?v=mhv6lPAcnUA">See the demo of the game</a>
 
 <h2>Author</h2>
 Cantu, Melissa
