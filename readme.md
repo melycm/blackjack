@@ -1,7 +1,6 @@
 <h1>Blackjack Game</h1>
 
 <h2>Introduction</h2>
-<hr>
 This is a classic 21 Blackjack card game. The objective of this game is to beat the dealer, and it can be done with the following options:
 
 <li>Get 21 points on the player's first two cards, without a dealer blackjack.</li>
@@ -10,7 +9,6 @@ This is a classic 21 Blackjack card game. The objective of this game is to beat 
 
 
 <h2>Technologies Used</h2>
-<hr>
 <li>HTML/CSS</li>
 <li>Javascript</li>
 <li>JQuery</li>
@@ -25,6 +23,7 @@ To see the full code, please visit <a href="https://github.com/melycm/blackjack"
 <a href="https://www.youtube.com/watch?v=mhv6lPAcnUA"></a>
 
 <h2>Author</h2>
-<li>Cantu, Melissa</li>
+Cantu, Melissa
 
+<h2>Acknowledgments</h2>
 I would like to thank Veronica Lino and our TA, Matthew Baxter for all the help on this project.
