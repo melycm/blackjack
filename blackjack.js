@@ -1,47 +1,46 @@
 $(function gameReady() {
     $('#play-again').hide();
-  
+
 var cardDeck = [];
 
 function deckCards(){
     var suits = ["H", "D", "C", "S"];
     var values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
-    // var scores = ["11", "2", "3", "4", "5", "6", "7", "8", "9", "10", "10", "10"];
 
     var card = {};
 
     suits.forEach(function(suitCard){
         values.forEach(function(pointCard){
-                card.suit = suitCard;
-                card.type = pointCard;
-                card.imgURl = "images/cards/" + pointCard + suitCard + ".jpg";
+            card.suit = suitCard;
+            card.type = pointCard;
+            card.imgURl = "images/cards/" + pointCard + suitCard + ".jpg";
 
-                switch(pointCard){
+            switch(pointCard){
 
-                    case "A":
-                      card.value = "11";
-                      break;
-                    case "J":
-                       card.value = "10";
-                       break;
-                    case "Q": 
-                       card.value = "10";
-                       break;
-                    case "K":
-                       card.value = "10";
-                       break;
-                    default:
-                       card.value = pointCard;
-                       break;
-                }
-                cardDeck.push(card);
-                
-                card = {};
-                })
+                case "A":
+                card.value = "11";
+                    break;
+                case "J":
+                    card.value = "10";
+                    break;
+                case "Q": 
+                    card.value = "10";
+                    break;
+                case "K":
+                    card.value = "10";
+                    break;
+                default:
+                    card.value = pointCard;
+                    break;
+            }
+            cardDeck.push(card);
             
-        })
+            card = {};
+            })
         
-       
+    })
+    
+    
 }
 
 //Trying to work the cards (points)
